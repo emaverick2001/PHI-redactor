@@ -85,7 +85,6 @@ class BatchAnalyzerEngine(AnalyzerEngine):
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 uploading location list which will be included in the model
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 location_list = pd.read_csv("us_cities_states_counties.csv", sep = '|').reset_index(drop = True)
 
 
